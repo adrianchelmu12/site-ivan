@@ -63,6 +63,20 @@
         .back-link:hover {
             text-decoration: underline;
         }
+        .impressum-profile {
+            display: flex;
+            align-items: flex-start;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid var(--primary);
+            flex-shrink: 0;
+        }
     </style>
 </head>
 <body>
@@ -93,12 +107,17 @@
                 <h2>Impressum</h2>
 
                 <h3>Angaben gemäß § 5 DDG</h3>
-                <p><strong>Petru Ivan</strong></p>
-                <p>Vertreten durch die Gesellschafter:</p>
-                <p>Ivan Petru</p>
-                <br>
-                <p>Anschrift:</p>
-                <p>Schillerstraße 13, 59505 Bad Sassendorf</p>
+                <div class="impressum-profile">
+                    <img src="profile.jpg" alt="Geschäftsführer" class="profile-img">
+                    <div>
+                        <p><strong>Petru Ivan</strong></p>
+                        <p>Vertreten durch die Gesellschafter:</p>
+                        <p>Ivan Petru</p>
+                        <br>
+                        <p>Anschrift:</p>
+                        <p>Schillerstraße 13, 59505 Bad Sassendorf</p>
+                    </div>
+                </div>
                                        
                 <h3>Kontakt</h3>
                 <p>Telefon:<a href="tel:+4917680815022">+49 17680815022</a></p>
