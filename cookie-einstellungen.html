@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie-Einstellungen — Isaul & Dan GbR</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .cookies-page {
+            padding: 140px 0 80px;
+        }
+        .cookies-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .cookies-content h2 {
+            font-family: var(--font-heading);
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--secondary);
+            margin-bottom: 10px;
+            position: relative;
+            padding-bottom: 10px;
+        }
+        .cookies-content h2::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 50px;
+            height: 3px;
+            background: var(--primary);
+            border-radius: 2px;
+        }
+        .cookies-content h3 {
+            font-family: var(--font-heading);
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: var(--secondary);
+            margin: 35px 0 15px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid var(--primary);
+            display: inline-block;
+        }
+        .cookies-content p {
+            color: var(--gray-dark);
+            font-size: 0.95rem;
+            line-height: 1.7;
+            margin-bottom: 12px;
+        }
+        .cookies-content a {
+            color: var(--primary-dark);
+            text-decoration: underline;
+        }
+        .cookie-links {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 30px;
+            font-size: 0.9rem;
+        }
+        .cookie-category {
+            background: var(--light);
+            padding: 25px;
+            border-radius: var(--radius);
+            margin-bottom: 25px;
+        }
+        .cookie-category h4 {
+            font-family: var(--font-heading);
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--secondary);
+            margin-bottom: 10px;
+        }
+        .cookie-category p {
+            margin-bottom: 8px;
+        }
+        .cookie-detail {
+            background: var(--white);
+            padding: 20px;
+            border-radius: var(--radius);
+            margin-top: 12px;
+            border: 1px solid #e0e0e0;
+        }
+        .cookie-detail p {
+            font-size: 0.88rem;
+            margin-bottom: 4px;
+        }
+        .no-cookies {
+            color: #999;
+            font-style: italic;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 40px;
+            color: var(--primary-dark);
+            font-weight: 600;
+            text-decoration: none;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar scrolled">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="logo.png" alt="Ivan" class="logo-img">
+            </a>
+            <button class="hamburger" aria-label="Meniu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html#acasa">Home</a></li>
+                <li><a href="index.html#despre-noi">Über uns</a></li>
+                <li><a href="index.html#galerie">Referenzen</a></li>
+                <li><a href="index.html#strengths">Stärken</a></li>
+                <li><a href="index.html#contact">Kontakt</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="cookies-page">
+        <div class="container">
+            <div class="cookies-content">
+                <h2>Cookie Policy</h2>
+                <p>This website uses cookies. You can find more information on the types of cookies used as well as enable individual cookies in their respective categories. You can adjust your settings at any time through the link in the footer of this website.</p>
+                <div class="cookie-links">
+                    <a href="impressum.html">Legal notice</a>
+                    <span>|</span>
+                    <a href="datenschutz.html">Privacy policy</a>
+                </div>
+
+                <h3>Absolutely necessary</h3>
+                <div class="cookie-category">
+                    <h4>Absolutely necessary</h4>
+                    <p>Strictly necessary cookies guarantee functions without which this website would not function as intended. As a result these cookies cannot be deactivated. These cookies are used exclusively by this website and are therefore first party cookies. This means that all information stored in the cookies will be returned to this website.</p>
+                </div>
+                <div class="cookie-detail">
+                    <p><strong>Cloudflare</strong></p>
+                    <p>Cloudflare is a service that improves the security and speed of websites. Cloudflare offers a Content Delivery Network (CDN) to improve website loading times. Using a CDN allows users to deliver content via regionally or internationally distributed servers for faster delivery. Provider: Cloudflare Inc., 101 Townsend St, San Francisco, CA 94107 USA. Cookie names and storage duration: __cfruid (storage duration: session), __cf_bm (storage duration: 30 minutes), __cf_clearance (storage duration: 30 minutes)</p>
+                    <p style="margin-top:8px;">
+                        <a href="https://www.cloudflare.com/cookie-policy/" target="_blank" rel="noopener">Cookie Policy</a>
+                        &nbsp;|&nbsp;
+                        <a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener">Privacy Policy</a>
+                    </p>
+                </div>
+
+                <h3>Functional</h3>
+                <div class="cookie-category">
+                    <h4>Functional</h4>
+                    <p>Functional cookies enable this website to provide you with certain functions and to store information already provided (such as registered name or language selection) in order to offer you improved and more personalized functions.</p>
+                    <p class="no-cookies">No cookies in this category</p>
+                </div>
+
+                <h3>Marketing / Third Party</h3>
+                <div class="cookie-category">
+                    <h4>Marketing / Third Party</h4>
+                    <p>Marketing / Third Party Cookies originate from external advertising companies (among others) and are used to gather information about the websites visited by you, in order to e.g. create targeted advertising for you.</p>
+                    <p class="no-cookies">No cookies in this category</p>
+                </div>
+
+                <h3>Performance</h3>
+                <div class="cookie-category">
+                    <h4>Performance</h4>
+                    <p>Performance cookies gather information on how a web page is used. We use them to better understand how our web pages are used in order to improve their appeal, content and functionality.</p>
+                    <p class="no-cookies">No cookies in this category</p>
+                </div>
+
+                <a href="index.html" class="back-link">&larr; Zurück zur Startseite</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col footer-col-brand">
+                <div class="footer-logo">
+                    <img src="logo.png" alt="Ivan" class="footer-logo-img">
+                </div>
+                <div class="footer-address">
+                    <p>Schillerstraße 13</p>
+                    <p>59505 Bad Sassendorf</p>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Öffnungszeiten</h4>
+                <p>Montag - Freitag</p>
+                <p>8:00 Uhr - 16:00 Uhr</p>
+                <p>Samstag &amp; Sonntag:</p>
+                <p>Geschlossen</p>
+            </div>
+            <div class="footer-col">
+                <h4>Kontakt</h4>
+                <p><a href="tel:+4917680815022">+49 176 80815022</a></p>
+                <p><a href="mailto:petru.ivan@web.de">petru.ivan@web.de</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container footer-bottom-content">
+                <p>&copy; 2026 Petru Ivan</p>
+                <div class="footer-legal">
+                    <a href="impressum.html">Impressum</a>
+                    <a href="datenschutz.html">Datenschutz</a>
+                    <a href="cookie-einstellungen.html">Cookie-Einstellungen</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

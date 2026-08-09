@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impressum — Petru Ivan</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .impressum-page {
+            padding: 140px 0 80px;
+        }
+        .impressum-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .impressum-content h2 {
+            font-family: var(--font-heading);
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--secondary);
+            margin-bottom: 30px;
+            position: relative;
+            padding-bottom: 10px;
+        }
+        .impressum-content h2::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 50px;
+            height: 3px;
+            background: var(--primary);
+            border-radius: 2px;
+        }
+        .impressum-content h3 {
+            font-family: var(--font-heading);
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--secondary);
+            margin: 35px 0 15px;
+        }
+        .impressum-content p {
+            color: var(--gray-dark);
+            font-size: 0.95rem;
+            line-height: 1.7;
+            margin-bottom: 6px;
+        }
+        .impressum-content a {
+            color: var(--primary-dark);
+            text-decoration: underline;
+        }
+        .placeholder {
+            color: #999;
+            font-style: italic;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 40px;
+            color: var(--primary-dark);
+            font-weight: 600;
+            text-decoration: none;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar scrolled">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="logo.png" alt="Ivan" class="logo-img">
+            </a>
+            <button class="hamburger" aria-label="Meniu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html#acasa">Home</a></li>
+                <li><a href="index.html#despre-noi">Über uns</a></li>
+                <li><a href="index.html#galerie">Referenzen</a></li>
+                <li><a href="index.html#strengths">Stärken</a></li>
+                <li><a href="index.html#contact">Kontakt</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="impressum-page">
+        <div class="container">
+            <div class="impressum-content">
+                <h2>Impressum</h2>
+
+                <h3>Angaben gemäß § 5 DDG</h3>
+                <p><strong>Petru Ivan</strong></p>
+                <p>Vertreten durch die Gesellschafter:</p>
+                <p>Ivan Petru</p>
+                <br>
+                <p>Anschrift:</p>
+                <p>Schillerstraße 13, 59505 Bad Sassendorf</p>
+                                       
+                <h3>Kontakt</h3>
+                <p>Telefon:<a href="tel:+4917680815022">+49 17680815022</a></p>
+                <p>E-Mail: <a href="mailto:petru.ivan@web.de">petru.ivan@web.de</a></p>
+
+                <h3>Umsatzsteuer-Identifikationsnummer gemäß § 27a UStG</h3>
+                <p>DE463192573</p>
+
+                <h3>Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV</h3>
+                <p>Ivan Petru</p>
+                <p>Schillerstraße 13, 59505 Bad Sassendorf</p>
+
+                <a href="index.html" class="back-link">&larr; Zurück zur Startseite</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col footer-col-brand">
+                <div class="footer-logo">
+                    <img src="logo.png" alt="Ivan" class="footer-logo-img">
+                </div>
+                <div class="footer-address">
+                    <p>Schillerstraße 13</p>
+                    <p>59505 Bad Sassendorf</p>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Öffnungszeiten</h4>
+                <p>Montag - Freitag</p>
+                <p>8:00 Uhr - 16:00 Uhr</p>
+                <p>Samstag &amp; Sonntag:</p>
+                <p>Geschlossen</p>
+            </div>
+            <div class="footer-col">
+                <h4>Kontakt</h4>
+                <p><a href="tel:+4917680815022">+49 176 80815022</a></p>
+                <p><a href="mailto:petru.ivan@web.de">petru.ivan@web.de</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container footer-bottom-content">
+                <p>&copy; 2026 Petru Ivan</p>
+                <div class="footer-legal">
+                    <a href="impressum.html">Impressum</a>
+                    <a href="datenschutz.html">Datenschutz</a>
+                    <a href="cookie-einstellungen.html">Cookie-Einstellungen</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
