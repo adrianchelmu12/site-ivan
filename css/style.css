@@ -1046,7 +1046,28 @@ section {
         font-size: 0.9rem;
     }
 
-    .hero-buttons {
+.hero-lang {
+    color: var(--primary);
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 25px;
+    animation: fadeInUp 0.8s ease 0.2s both;
+}
+
+.about-lang {
+    font-size: 0.9rem;
+    color: var(--primary);
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.footer-lang {
+    color: var(--primary);
+    font-size: 0.85rem;
+    margin-top: 8px;
+}
+
+.hero-buttons {
         flex-direction: column;
     }
 
